@@ -1,10 +1,20 @@
 let array = new Array();
+// let array = [];
 array.push('A');
 array.push('B');
 array.push('C');
-array.push('A');
+array.push('D');
 console.log(array);
 console.log(array.length);
+console.log(array.indexOf('D'));
+console.log(array.indexOf('E'));
+console.log(array.indexOf('E') !== -1);
+array.splice(array.indexOf('C'), 1);
+console.log(array);
+console.log(array.pop());
+console.log(array);
+array.unshift(0);
+console.log(array);
 
 let set = new Set();
 set.add('A');
@@ -14,13 +24,8 @@ set.add('A');
 console.log(set);
 console.log(set.size);
 console.log(set.has('A'));
+console.log(set.has('D'));
 set.delete('B');
 console.log(set);
 set.clear();
 console.log(set);
-
-
-
-
-
-

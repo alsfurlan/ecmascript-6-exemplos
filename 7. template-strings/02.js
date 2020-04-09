@@ -1,6 +1,6 @@
 
 function helloWorldOld(nome) {
-    console.log("Hello World, " + nome + "!");
+    console.log("Hello World, " + nome + '!');
 }
 
 function helloWorldNew(nome) {
