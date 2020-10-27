@@ -4,11 +4,11 @@ var pessoa = {
     sobrenome: "da Silva"
 };
 
-function imprimirHelloWorld({nome}) {
+function imprimirHelloWorld( {nome} ) {
     console.log(`Hello World ${nome}!`);
 }
 
-function imprimirPadraoAmericano({sobrenome,nome}) {
+function imprimirPadraoAmericano( {sobrenome,nome} ) {
     console.log(`${sobrenome}, ${nome}`);    
 }
 
