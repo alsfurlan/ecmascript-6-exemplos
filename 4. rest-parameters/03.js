@@ -1,5 +1,4 @@
 function somar(...array) {
-
     console.log(array);
     console.log(typeof(array));
     

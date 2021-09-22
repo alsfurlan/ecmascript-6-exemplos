@@ -9,3 +9,5 @@ imprimir('João');
 imprimir(undefined, 'da Silva');
 
 imprimir(null, 'da Silva');
+
+imprimir('João', null);
