@@ -1,16 +1,21 @@
-var pessoa = {
-    nome: "João",
-    nomeMeio: "Antônio",
-    sobrenome: "da Silva"
-};
-
-function imprimirHelloWorld( {nome} ) {
-    console.log(`Hello World ${nome}!`);
+class Pessoa {
+  constructor(nome = "", nomeMeio = "", sobrenome = "") {
+    this.nome = nome;
+    this.nomeMeio = nomeMeio;
+    this.sobrenome = sobrenome;
+  }
 }
 
-function imprimirPadraoAmericano( {sobrenome,nome} ) {
-    console.log(`${sobrenome}, ${nome}`);    
-}
+const pessoa = new Pessoa("Fernando", "Henrique", "Cardoso");
 
+// ES 5
+function imprimirHelloWorld(pessoa) {
+  console.log(`Hello World, ${pessoa.nome}!`);
+}
 imprimirHelloWorld(pessoa);
-imprimirPadraoAmericano(pessoa);
+
+// ES 6
+const imprimirHelloWorldDestructuring = ({ nome }) => {
+  console.log(`Hello World, ${nome}!`);
+}
+imprimirHelloWorldDestructuring(pessoa);

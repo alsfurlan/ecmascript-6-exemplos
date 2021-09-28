@@ -1,4 +1,3 @@
-
 function Pessoa(nome, sexo, dataNascimento) {
     // Atributos
     this.nome = nome;
@@ -23,13 +22,17 @@ Pessoa.imprimirIdade = function(p) {
 
 
 // Pessoa p = new Pessoa("Nome", 'F', new Date(1991, 1, 15)) - em Java
-var p = new Pessoa("A", "F", new Date(1991,1,15));
-console.log(p);
-console.log(p.getInformacoes());
-console.log(p instanceof Pessoa);
-console.log(typeof Pessoa);
-console.log(typeof p);
-console.log(p.constructor.name);
+// var p1 = new Pessoa();
+// var p2 = new Pessoa('João');
+// var p3 = new Pessoa(undefined, 'M');
+
+// var p = new Pessoa("A", "F", new Date(1991,1,15));
+// console.log(p);
+// console.log(p.getInformacoes());
+// console.log(p instanceof Pessoa);
+// console.log(typeof Pessoa);
+// console.log(typeof p);
+// console.log(p.constructor.name);
 
 // console.log(p.getIdade());
-Pessoa.imprimirIdade(p);
+// Pessoa.imprimirIdade(p);

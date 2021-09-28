@@ -4,7 +4,7 @@ function helloWorldOld(nome) {
 }
 
 function helloWorldNew(nome) {
-    console.log(`Hello World, ${nome}!`);
+    console.log(`Hello World, ${nome}`);
 }
 
 helloWorldOld('Anderson');

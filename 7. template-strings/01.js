@@ -1,11 +1,17 @@
 let texto1 = "Um texto de múltiplas linhas " + 
-"deve ser exibido";
+"deve ser exibido " + 
+"aqui";
 
 let texto2 = 'Um texto de múltiplas linhas  \n' + 
-'deve ser exibido';
+'deve ser exibido \n' + 
+'aqui';
 
 let texto3 = `Um texto de múltiplias linhas
-deve ser exibido`; // apóstrofo
+deve ser exibido 
+aqui
+    Um texto de múltiplias linhas
+deve ser exibido 
+aqui`; // apóstrofo
 
 let texto4 = `  Um texto de múltiplias linhas
 

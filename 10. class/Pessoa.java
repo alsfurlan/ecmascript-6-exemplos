@@ -6,7 +6,11 @@ public class Pessoa {
 
     public Pessoa() {}
 
-    public Pessoa(nome, sexo, dataNascimento) {
+    public Pessoa(String nome) {
+        this.nome = nome;
+    }
+
+    public Pessoa(String nome, char sexo, Date dataNascimento) {
         this.nome = nome;
         this.sexo = sexo;
         this.dataNascimento = dataNascimento;
@@ -25,3 +29,10 @@ public class Pessoa {
     }
 
 }
+
+// Método
+// Pessoa pessoaObjeto = new Pessoa();
+// pessoaObjeto.getInformacoes()
+
+// Método estático
+// Pessoa.imprimirIdade(pessoaObjeto);
